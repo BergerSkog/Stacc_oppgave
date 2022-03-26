@@ -17,7 +17,7 @@ def index():
         else:
             googleContent = ""
             wikipediaContent = ""
-            content = main.hentData(kunde)
+            content = main.hentDataCsv(kunde)
             if google == "on":
                 googleContent = "Treff fra google: " + hent_info.hentInfoGoogle(kunde)
             if wikipedia == "on":

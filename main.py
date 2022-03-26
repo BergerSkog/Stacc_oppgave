@@ -6,15 +6,28 @@ knut = {"numberOfHits":2,"hits":[{"score":0.0003451437393358565,"id":"evpo-ff10b
 
 kunde = knut #hentData(navn)
 
-def hentData(kundeNavn):
+def hentDataApi(kundeNavn):
     #Kjører en get request på api-en med kundens navn
     x = eval(requests.get("https://code-challenge.stacc.dev/api/pep?name=" + kundeNavn).text)
     data = ''
+    if len(x["hits"]) == 0: #Personen er ikke flagget
+        return "No data in database."
     data += "Antall treff: " + str(x["numberOfHits"]) + ". Fra"
     for i in x["hits"]:
         data += " " + i["dataset"] + ","
 
     return data[:-1] + '.'
+
+def hentDataCsv(kundeNavn):
+    kundeNavn = kundeNavn.upper()
+    flags = 0
+    data = []
+    with open('pep.csv', encoding="utf-8") as csv_file:
+        for row in csv_file:
+            if kundeNavn in row.upper():
+                data.append(eval("[" + row + "]")[11])
+    return data
+
 
 def main(getInfo):
     for i in kunde["hits"]:
@@ -24,4 +37,4 @@ def main(getInfo):
 
 
 if __name__ == "__main__":
-    main(True)
+    print(hentDataCsv("Knut Arild Hareide"))
