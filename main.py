@@ -8,13 +8,17 @@ kunde = knut #hentData(navn)
 
 def hentData(kundeNavn):
     #Kjører en get request på api-en med kundens navn
-    x = requests.get("https://code-challenge.stacc.dev/api/pep?name=" + kundeNavn)
-    return x.text
+    x = eval(requests.get("https://code-challenge.stacc.dev/api/pep?name=" + kundeNavn).text)
+    data = ''
+    data += "Antall treff: " + str(x["numberOfHits"]) + ". Fra"
+    for i in x["hits"]:
+        data += " " + i["dataset"] + ","
 
+    return data[:-1] + '.'
 
 def main(getInfo):
     for i in kunde["hits"]:
-        print(i)
+        print(i["dataset"])
     if getInfo:
         info = hent_info.hentInfoWikipedia("Jens stoltenberg")
 

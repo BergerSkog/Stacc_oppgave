@@ -12,14 +12,17 @@ def hentInfoGoogle(navn):
     return soup.find('div', {'class':'BNeawe s3v9rd AP7Wnd'}).text
 
 def hentInfoWikipedia(navn):
-    #Henter første avsnitt fra wikipedia siden til kunden
-    linkNavn = ""
-    for i in navn.split():
-        linkNavn += i.capitalize() + "_"
-    print(linkNavn)
+    try:
+        #Henter første avsnitt fra wikipedia siden til kunden
+        linkNavn = ""
+        for i in navn.split():
+            linkNavn += i.capitalize() + "_"
+        print(linkNavn)
 
-    URL = 'https://no.wikipedia.org/wiki/' + linkNavn
-    print(URL)
-    r = requests.get(URL)
-    soup = BeautifulSoup(r.content, 'html.parser')
-    return soup.find('p').text
+        URL = 'https://no.wikipedia.org/wiki/' + linkNavn
+        print(URL)
+        r = requests.get(URL)
+        soup = BeautifulSoup(r.content, 'html.parser')
+        return soup.find('p').text
+    except:
+        return "Data ikke tilgjengelig"
