@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d8b1be6-811b-4c3c-a161-f8ae9588f2cb" name="Default Changelist" comment="Skrevet README og lagt til kommentarer">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="0d8b1be6-811b-4c3c-a161-f8ae9588f2cb" name="Default Changelist" comment="Typo">
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -264,7 +264,13 @@
       <option name="presentableId" value="LOCAL−00016" />
       <updated>1648408815202</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL−00017" summary="Typo">
+      <created>1648408925408</created>
+      <option name="number" value="LOCAL−00017" />
+      <option name="presentableId" value="LOCAL−00017" />
+      <updated>1648408925408</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -304,6 +310,7 @@
     <MESSAGE value="Pushet fra Test" />
     <MESSAGE value="Push for heroku test" />
     <MESSAGE value="Skrevet README og lagt til kommentarer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Skrevet README og lagt til kommentarer" />
+    <MESSAGE value="Typo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Typo" />
   </component>
 </project>
