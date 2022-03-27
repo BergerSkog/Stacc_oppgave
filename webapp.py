@@ -18,9 +18,9 @@ def index():
             googleContent = ""
             wikipediaContent = ""
             content = main.hentDataCsv(kunde)
-            if google == "on":
+            if google == "option1":
                 googleContent = "Treff fra google: " + hent_info.hentInfoGoogle(kunde)
-            if wikipedia == "on":
+            if wikipedia == "option2":
                 wikipediaContent = "Treff fra wikipedia: " + hent_info.hentInfoWikipedia(kunde)
             return render_template("index.html", content=content, googleContent=googleContent, wikipediaContent=wikipediaContent)
     else:
@@ -28,4 +28,4 @@ def index():
 
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
