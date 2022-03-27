@@ -7,6 +7,7 @@ personen er flagget. Den skriver også ut litt tileggsinformasjon om personen he
 fra google og wikipedia. 
 
 
+
 ### Hvordan kjøre:
 
 #### Webbapp
@@ -23,3 +24,9 @@ De følgene punktene skal gjøres i en terminal:
 3. kjør: python localApp.py
 
 Siden er da tilgjengelig i en nettleser på http://localhost:8080/
+
+
+## Kort om oppgaven
+Jeg syns det var en morsom og interessant oppgave. Jeg syns det var spesielt interessant å sette meg inn i ekstern hosting og samarbeid mellom python og html.
+
+Jeg tenkte det kunne være spennende med litt ekstra data om personene siden ikke alle politisk eksponerte personer nødvendigvis er “flagget”.

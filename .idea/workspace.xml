@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d8b1be6-811b-4c3c-a161-f8ae9588f2cb" name="Default Changelist" comment="lagt til setning i html">
+    <list default="true" id="0d8b1be6-811b-4c3c-a161-f8ae9588f2cb" name="Default Changelist" comment="Fikset flag error">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hent_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/hent_csv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,7 +283,13 @@
       <option name="presentableId" value="LOCAL−00019" />
       <updated>1648409580638</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL−00020" summary="Fikset flag error">
+      <created>1648409852320</created>
+      <option name="number" value="LOCAL−00020" />
+      <option name="presentableId" value="LOCAL−00020" />
+      <updated>1648409852320</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -325,6 +331,7 @@
     <MESSAGE value="Skrevet README og lagt til kommentarer" />
     <MESSAGE value="Typo" />
     <MESSAGE value="lagt til setning i html" />
-    <option name="LAST_COMMIT_MESSAGE" value="lagt til setning i html" />
+    <MESSAGE value="Fikset flag error" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fikset flag error" />
   </component>
 </project>
