@@ -9,10 +9,10 @@ fra google og wikipedia.
 
 ### Hvordan kjøre:
 
-####Webbapp
+#### Webbapp
 For å se webapp interfacen gå til https://berger-skogstad.herokuapp.com/
 
-####På egen maskin
+#### På egen maskin
 Requirements:
 - Python3, helst nyeste versjon
 
