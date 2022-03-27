@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d8b1be6-811b-4c3c-a161-f8ae9588f2cb" name="Default Changelist" comment="Pushet fra Test">
+    <list default="true" id="0d8b1be6-811b-4c3c-a161-f8ae9588f2cb" name="Default Changelist" comment="Push for heroku test">
+      <change afterPath="$PROJECT_DIR$/localApp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gcloudignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arbeidsplasser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hent_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/hent_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/hent_csv.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +51,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.webapp">
+  <component name="RunManager" selected="Python.localApp">
     <configuration name="arbeidsplasser" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Stacc_oppgave" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,6 +86,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hent_info.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="localApp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Stacc_oppgave" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/localApp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.localApp" />
         <item itemvalue="Python.webapp" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.hent_info" />
         <item itemvalue="Python.arbeidsplasser" />
-        <item itemvalue="Python.webapp" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +260,13 @@
       <option name="presentableId" value="LOCAL−00014" />
       <updated>1648394299659</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL−00015" summary="Push for heroku test">
+      <created>1648395067709</created>
+      <option name="number" value="LOCAL−00015" />
+      <option name="presentableId" value="LOCAL−00015" />
+      <updated>1648395067709</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -269,6 +304,7 @@
     <MESSAGE value="Fikset html" />
     <MESSAGE value="lagt til bootstrap css" />
     <MESSAGE value="Pushet fra Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pushet fra Test" />
+    <MESSAGE value="Push for heroku test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Push for heroku test" />
   </component>
 </project>

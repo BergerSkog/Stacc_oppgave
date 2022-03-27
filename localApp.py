@@ -5,10 +5,11 @@ import hent_info
 app = Flask(__name__)
 
 
-# Flask html siden
+# Flask html side
 @app.route("/", methods=["POST", "GET"])
 def index():
     # Starter index.html på localhost
+
 
     # Sjekker om knappen er trykket
     if request.method == "POST":
@@ -18,6 +19,7 @@ def index():
         google = request.form.get("google")
         wikipedia = request.form.get("wikipedia")
         kunde = request.form["kunde"]
+
 
         if kunde.isspace() or (len(kunde) == 0):  # sjekker om stringen kun inneholder mellomrom eller er tom
             return render_template("index.html", content="")
@@ -41,5 +43,4 @@ def index():
 
 
 if __name__ == "__main__":
-    # Kjører flask
-    app.run()
+    app.run(host="localhost", port="8080", debug=True)
