@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0d8b1be6-811b-4c3c-a161-f8ae9588f2cb" name="Default Changelist" comment="lagt til setning i html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hent_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/hent_csv.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -277,7 +277,13 @@
       <option name="presentableId" value="LOCAL−00018" />
       <updated>1648409134180</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL−00019" summary="lagt til setning i html">
+      <created>1648409580638</created>
+      <option name="number" value="LOCAL−00019" />
+      <option name="presentableId" value="LOCAL−00019" />
+      <updated>1648409580638</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
